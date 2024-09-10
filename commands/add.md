@@ -3,7 +3,10 @@
 
 **Examples**
 1. Adding a single file
+   
     `git add <file_name>`
-    Example: git add file1.py
-    Explanation: a file named *file1.py* will be added to the staging area. 
+   
+    **Example**: git add file1.py
+    
+    **Explanation**: a file named *file1.py* will be added to the staging area. 
 `

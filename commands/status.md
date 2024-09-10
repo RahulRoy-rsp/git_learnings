@@ -4,8 +4,6 @@
 **Example**
 Checking status of your working directory: `git status`
 
-**Example**: `git status`
-
 **Explanation**: 
 - Shows the current branch you are on, 
 - Lists files that have been added to the staging area and are ready to be committed 

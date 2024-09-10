@@ -1,0 +1,9 @@
+1. on your command prompt, type command:
+    ssh-keygen
+2. then change the directory to .ssh using command:
+    cd .ssh
+3. then view contents of id_rsa.pub file using command(command may differ for different operating systems):
+    type id_rsa.pub 
+4. copy the contents
+5. login to your github account and go to settings.
+6. Under settings, go to SSH and GPG keys and add new SSH key.

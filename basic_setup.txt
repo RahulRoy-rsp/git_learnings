@@ -2,10 +2,10 @@
 2. Once downloaded, setup your username and email address into the system.
 3. Verify if the git is downloaded or not by command:
     git --version
-4. once verified, set up user name using command:
+4. Once verified, set up user name using command:
     git config --global user.name [username]
     example: git config --global user.name 'roy'
-5. set up email using command:
+5. Set up email using command:
     git config --global user.email [email-address]
     example: git config --global user.name 'youremail@gmail.com'
 

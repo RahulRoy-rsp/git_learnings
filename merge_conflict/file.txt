@@ -4,3 +4,4 @@ This is third line.
 This is forth line.
 This is fifth line, am i right?
 This is sixth line.
+This is seventh line.

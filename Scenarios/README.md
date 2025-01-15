@@ -1,3 +1,13 @@
+# Scenarios:
+1. [Listing Branches](https://github.com/RahulRoy-rsp/git_learnings/tree/master/Scenarios#you-want-to-know-how-many-branches-are-currently-available-in-your-repository)
+2. [Compare Changes](https://github.com/RahulRoy-rsp/git_learnings/tree/master/Scenarios#you-want-to-know-the-changes-you-did-so-far-comparing-it-with-the-remote-branch)
+3. [Push local changes to remote](https://github.com/RahulRoy-rsp/git_learnings/tree/master/Scenarios#you-want-to-send-your-local-commits-to-the-remote-branch)
+4. [Changes to the incorrect branch](https://github.com/RahulRoy-rsp/git_learnings/tree/master/Scenarios#you-were-doing-some-changes-in-your-local-repository-but-you-just-found-out-that-this-wasnt-the-branch-that-you-were-supposed-to-make-changes)
+5. [Remote Branch not reflecting in local repository](https://github.com/RahulRoy-rsp/git_learnings/tree/master/Scenarios#you-created-a-feature-branch-in-your-github-repository-and-now-want-to-use-that-branch-in-your-code-editor-but-its-not-reflected-yet)
+6. [Create branch in local repository and push it to remote](https://github.com/RahulRoy-rsp/git_learnings/tree/master/Scenarios#you-created-a-feature-branch-in-your-github-repository-and-now-want-to-use-that-branch-in-your-code-editor-but-its-not-reflected-yet)
+
+---
+
 ### You want to know how many branches are currently available in your repository.
 
 Below command will output all the *local branches*, with current branch being displayed with an `asterisk(*)` prefixing the branch name.

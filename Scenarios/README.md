@@ -115,4 +115,50 @@ git diff main.py
         - You could also do `git stash apply` this will apply the most recent stash to the branch.
         - You could have also done `git stash pop` this will also apply the most recent stash to the branch, and it will remove the entry from the stash.
     7. Once, the stash has been applied you can stage, commit and push the changes and also clean the stash.
+
+---
+
+### You created a feature-branch in your Github repository and now want to use that branch in your Code editor, but its not reflected yet
+
+- Let's say you created a branch in a repository in Github. (suppose branch name is `branch-android`)
+- Now you visit your Code editor and tried to switch to this branch.
+- But unfortunately, you couldn't because it says `this branch is not available`.
+- So, you listed all the branches and yes, you see that this newly created branch branch is not reflected in your local git repository.
+---
+##### Steps to resolve
+- Bring all the updates from the remote repository.
+    ```bash
+    git fetch origin
+    ```
+- Now switch to the branch
+    ```bash
+    git checkout branch-android
+    ```
+
+---
+
+### You want to create a feature branch in local from a branch in cloud and do the changes and push it to the cloud.
+
+- Let's take an example, you are a developer and you have been assigned a task.
+- Now, first thing as a good developer you do not make changes directly to the master branch but to create a branch from the master branch and do the changes in there and then push the changes to the master branch.
+---
+- ##### Steps to follow:
+    - Make sure that you are in the `master branch` in your code editor.
+    ```bash
+    git checkout master
+    ``` 
+    - Bring all the changes from the remote master branch to the local master branch. (this makes sure that we are having the up-to-date repo)
+    ```bash
+    git pull origin
+    ```
+    - Now, lets create a `feature-branch` from the `master branch`.
+    - Let's say we want to name our branch as `feature-for-upgrade`
+        ```bash
+        git checkout -b feature-for-upgrade
+        ```
+    - Do the changes and push the branch to the remote repository.
+        ```bash
+        git push origin feature-for-upgrade
+        ```
+
 ---

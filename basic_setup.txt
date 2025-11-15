@@ -7,6 +7,6 @@
     example: git config --global user.name 'roy'
 5. Set up email using command:
     git config --global user.email [email-address]
-    example: git config --global user.name 'youremail@gmail.com'
+    example: git config --global user.email 'youremail@gmail.com'
 
         
